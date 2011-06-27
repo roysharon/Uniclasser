@@ -23,13 +23,13 @@ There are several options to control how the classifier files are created:
  * `-c` causes the generator to create the files in C rather than in C++.
  * `-u <path>` tells the generator to read the unicode data from the specified path (default: ./UnicodeData.txt). You can download the unicode data of the latest unicode version from <http://www.unicode.org/Public/UNIDATA/UnicodeData.txt>.
 
-If you specify several categories seperated by commas, the created classifier will include all characters within any of these categories:
+If you specify several categories seperated by commas, the created classifier will include all characters within any of these categories. For example:
 
 		./uniclasser Lu,Ll
 		
 will produce a classifier that identifies whether a given character belongs either to the "Letter, Uppercase" or to the "Letter, Lowercase" general categories.
 
-If you specify several arguments seperated by spaces, several classifiers will be created:
+If you specify several arguments seperated by spaces, several classifiers will be created. For example:
 
 		./uniclasser Lu Ll
 
