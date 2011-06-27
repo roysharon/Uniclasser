@@ -1,3 +1,7 @@
+// Copyright (c) 2010 Roy Sharon <roy@roysharon.com>
+// See project repositry at <https://github.com/roysharon/Uniclasser>
+// Using this file is subject to the MIT License <http://creativecommons.org/licenses/MIT/>
+
 #ifndef C_GENERATOR_H
 #define C_GENERATOR_H
 

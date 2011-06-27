@@ -1,3 +1,7 @@
+// Copyright (c) 2010 Roy Sharon <roy@roysharon.com>
+// See project repositry at <https://github.com/roysharon/Uniclasser>
+// Using this file is subject to the MIT License <http://creativecommons.org/licenses/MIT/>
+
 #include <iostream>
 #include <cassert>
 #include <sstream>
@@ -25,7 +29,7 @@ void help_message()
 		 << "options:" << endl 
 		 << "  -t        do not generate classifier test functions." << endl 
 		 << "  -p        generate profiling information (not suitable for production code)." << endl 
-		 << "  -c        generator C code (instead of the default C++)." << endl 
+		 << "  -c        generate C code (instead of the default C++)." << endl 
 		 << "  -u path   read unicode data from specified path (default: ./UnicodeData.txt)." << endl 
 		 << "            You can download the unicode data of the latest unicode version from:" << endl
 		 << "            http://www.unicode.org/Public/UNIDATA/UnicodeData.txt" << endl;
@@ -123,7 +127,6 @@ int main (int argc, char * const argv[])
  
 	Can predicate hold the number of compare/jumps? If so, then change MatchTree.create_predicate() to return a Predicate*
 	Check why generated code does not handle multibyte characters input
-	Decide on license
 	Change general category property to be a bitfield
 	Add further properties
 	Add timing
