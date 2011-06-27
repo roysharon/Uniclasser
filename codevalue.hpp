@@ -20,6 +20,6 @@ typedef std::vector<codevalue> codevalue_vector;
 //----- Version ---------------------------------------------------------------
 
 #define VERSION "1.0"
-#define URL "http://sourceforge.com/uniclasser"
+#define URL "https://github.com/roysharon/Uniclasser"
 
 #endif
